@@ -19,7 +19,7 @@ import { CopilotKitStateAnnotation } from "@copilotkit/sdk-js/langgraph";
 // 2. Define our agent state, which includes CopilotKit state to
 //    provide actions to the state.
 export const AgentStateAnnotation = Annotation.Root({
-    language: Annotation<"english" | "spanish">,
+    proverbs: Annotation<string[]>,
     ...CopilotKitStateAnnotation.spec,
 });
 
@@ -29,7 +29,7 @@ export type AgentState = typeof AgentStateAnnotation.State;
 // 4. Define a simple tool to get the weather statically
 const getWeather = tool(
   (args) => {
-    return `The weather for ${args.location} is 70 degrees.`;
+    return `The weather for ${args.location} is 70 degrees, clear skies, 45% humidity, 5 mph wind, and feels like 72 degrees.`;
   },
   {
     name: "getWeather",
