@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@copilotkit/sdk-js':
-        specifier: ^1.5.13
-        version: 1.8.3(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.51.1)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.90.0(ws@8.18.1)(zod@3.23.8))(zod@3.23.8))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))))(@langchain/anthropic@0.3.8(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))))(@langchain/google-genai@0.1.4(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8)))(zod@3.23.8))(axios@1.8.4)(fast-xml-parser@4.5.0)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.90.0(ws@8.18.1)(zod@3.23.8))(playwright@1.51.1)(ws@8.18.1)
+        specifier: ^1.9.1
+        version: 1.9.1(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.51.1)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.90.0(ws@8.18.1)(zod@3.23.8))(zod@3.23.8))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))))(@langchain/anthropic@0.3.8(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))))(@langchain/google-genai@0.1.4(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8)))(zod@3.23.8))(axios@1.8.4)(fast-xml-parser@4.5.0)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.90.0(ws@8.18.1)(zod@3.23.8))(playwright@1.51.1)(ws@8.18.1)
       '@langchain/anthropic':
         specifier: ^0.3.8
         version: 0.3.8(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8)))
@@ -60,11 +60,11 @@ packages:
       openai: ^4.62.1
       zod: ^3.23.8
 
-  '@copilotkit/sdk-js@1.8.3':
-    resolution: {integrity: sha512-Ck8FZX6qx7ZSdW08QG1ZWyirU3kWBh0x/byD9BIFvSAGHOK95+rCPzv+tMCIRoxZVYt0Hf2jdaaaFjUsb73wOQ==}
+  '@copilotkit/sdk-js@1.9.1':
+    resolution: {integrity: sha512-P/nKMivE54p3yWmS9WJjuYQUKuzfWRdPRWBnCWbCV7CgKRm19DRX4Q+6xolndStoFTy/lxu8sKfEA509YBGDsQ==}
 
-  '@copilotkit/shared@1.8.3':
-    resolution: {integrity: sha512-xNmmMZjygehB+5iZbheldIitnEt+1bA25E7hNdnobSb9ScSONEu0eJPb6yhWu0j588JfBgCGZOJ5A2SWwr/6Jw==}
+  '@copilotkit/shared@1.9.1':
+    resolution: {integrity: sha512-Jrj4F2Vd26a17eWJhGT9zYD1Z1ccxW+Woo71FTXz4H5XU4vsGaAgSc42rjzKbhji5pwayRPx932EZSZ+n5b2yA==}
 
   '@google/generative-ai@0.21.0':
     resolution: {integrity: sha512-7XhUbtnlkSEZK15kN3t+tzIMxsbKm/dSkKBFalj+20NvPKe1kBY7mR2P7vuijEn+f06z5+A8bVGKO0v39cr6Wg==}
@@ -1132,9 +1132,9 @@ snapshots:
       - encoding
       - utf-8-validate
 
-  '@copilotkit/sdk-js@1.8.3(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.51.1)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.90.0(ws@8.18.1)(zod@3.23.8))(zod@3.23.8))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))))(@langchain/anthropic@0.3.8(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))))(@langchain/google-genai@0.1.4(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8)))(zod@3.23.8))(axios@1.8.4)(fast-xml-parser@4.5.0)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.90.0(ws@8.18.1)(zod@3.23.8))(playwright@1.51.1)(ws@8.18.1)':
+  '@copilotkit/sdk-js@1.9.1(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.51.1)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.90.0(ws@8.18.1)(zod@3.23.8))(zod@3.23.8))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))))(@langchain/anthropic@0.3.8(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))))(@langchain/google-genai@0.1.4(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8)))(zod@3.23.8))(axios@1.8.4)(fast-xml-parser@4.5.0)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.90.0(ws@8.18.1)(zod@3.23.8))(playwright@1.51.1)(ws@8.18.1)':
     dependencies:
-      '@copilotkit/shared': 1.8.3
+      '@copilotkit/shared': 1.9.1
       '@langchain/community': 0.3.40(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.51.1)(deepmerge@4.3.1)(dotenv@16.4.7)(openai@4.90.0(ws@8.18.1)(zod@3.23.8))(zod@3.23.8))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))))(@langchain/anthropic@0.3.8(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))))(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8)))(@langchain/google-genai@0.1.4(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8)))(zod@3.23.8))(axios@1.8.4)(fast-xml-parser@4.5.0)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.90.0(ws@8.18.1)(zod@3.23.8))(playwright@1.51.1)(ws@8.18.1)
       '@langchain/core': 0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8))
       '@langchain/langgraph': 0.2.44(@langchain/core@0.3.18(openai@4.90.0(ws@8.18.1)(zod@3.23.8)))
@@ -1286,7 +1286,7 @@ snapshots:
       - ws
       - youtubei.js
 
-  '@copilotkit/shared@1.8.3':
+  '@copilotkit/shared@1.9.1':
     dependencies:
       '@segment/analytics-node': 2.2.1
       chalk: 4.1.2
